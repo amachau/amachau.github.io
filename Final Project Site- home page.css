@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+}
+
+.site-title {
+  font-family: 'Lobster Two', cursive;    
+  font-size: 2.5rem;
+
+}
+
+.site-header {
+  background-image: url(logo.jpeg);
+}
+.container.fluid {
+    background: #e0e0e0;  
+  }
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: white;
+  background-color: white;
+}
+
+.navbar {
+  background: black;
+  text-align: center;
+  padding: 10px;
+
+}
+.navbar li {
+
+  display: inline-block;
+  width: 115px;
+  padding: 2px;
+  position: relative;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  background: #666666;
+  color: black;
+.
+}
+
+.navbar li:hover a{
+  color: black;
+}
+
+.navbar li ul {
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 49px;
+  left: 0;
+  z-index: 10;
+}
+
+/* hovering over submenu ul element switches its visibility value from hidden to visible; you can also do this with display: block; instead of visibility: visible; */
+.navbar li:hover ul {
+  display: block;
+}
+
+/* styling of submenu li elements */
+.navbar li ul li {
+  background: #e0e0e0;
+  display: block;
+}
+
+/* styling of submenu li elements that are also a elements */
+.navbar li ul li a { 
+  white-space: nowrap;
+}
+
+/* changing the background color of an <li> element in the submenu when it's hovered over */
+.navbar li ul li:hover {
+  background: #666666;
+}
+
+/* changing the text color of the <a> element when the li containing it is hovered over */
+.navbar li ul li:hover a {
+ color: #e0e0e0e0;
+}
+
+
+
+
+
+.advert {
+  background-color: #D6A724;
+  background-repeat: none; 
+  background-image: url(advert1.jpeg);
+
+}
+
+.footer {
+  background-color: black;
+  color: #D6A724;
+  text-align: center;
+  font-family: 'Prata', serif;
+
+}
+
+.footer-title {
+  font-family: 'Prata', serif;
+}
+
+.btn {
+  border: 1px solid white;
+}
